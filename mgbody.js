@@ -1,3 +1,6 @@
+/*
+&src\=mgtv&suuid\=.*&testversion\=&ticket\=[A-Z0-9]{32} url 302 &src=mgtv&ticket=2031287C725A39BE8D5F5E2FF31D57AB
+
 每次都来偷 你打过招呼吗
 9.10 ticket=71EDFB68215D3D58B05AA312FE32FE19
 9.10 ticket=84122092810F360BA056B85869F9F51A
