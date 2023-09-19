@@ -6,7 +6,7 @@
 [Script]
 用药助手 = type=http-response,pattern=^https://newdrugs.dxy.cn,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Yu9191/Script/main/yyzs2.js
 
-用药助手2 = type=http-request,pattern=^https://newdrugs.dxy.cn,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/Yu9191/Script/main/yyzsc.js
+用药助手2 = type=http-request,pattern=^https://newdrugs.dxy.cn,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/Yu9191/Script/main/yyzscook.js
 
 
 [MITM]
