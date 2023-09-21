@@ -9,7 +9,7 @@ https://open3.vistastory.com/v3/api/poster/share_poster? url script-response-bod
 #我的
 https://open3.vistastory.com/v3/api/my/home/get_home_center? url script-response-body https://raw.githubusercontent.com/Yu9191/Script/main/Vistamy.js
 #vip
-https://open3.vistastory.com/v3/api/vip url script-response-body https://raw.githubusercontent.com/Yu9191/Script/main/Vistavip.js
+https://open3.vistastory.com/v3/api url script-response-body https://raw.githubusercontent.com/Yu9191/Script/main/Vistavip.js
 ^https:\/\/open3\.vistastory\.com\/v3\/api\/notice\/need_read_notice_number? url reject
 
 ^https:\/\/open3\.vistastory\.com\/v3\/api\/index\/loading_ad2? url reject
