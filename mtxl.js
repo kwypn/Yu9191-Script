@@ -6,7 +6,7 @@
 下载地址：https://t.cn/A69AjDYp
 项目名称：潮自拍
 下载地址：https://t.cn/A6A2Sybv
-项目名称：海报工厂
+项目名称：美图设计室
 下载地址：https://t.cn/A66WBa0v
 项目名称：Chic-创意胶片相机
 下载地址：https://t.cn/A6oLDrrK
