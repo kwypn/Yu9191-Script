@@ -5,9 +5,9 @@
 
 [Script]
 
-训记 = type=http-request,pattern=^https:\/\/xunji\.gxzckj\.com\/whole_user_info_v4,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/Yu9191/Script/main/xunji61109.js
+训记 = type=http-request,pattern=^https:\/\/api\.xunjiapp\.cn\/whole_user_info_v4,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/Yu9191/Script/main/xunji61109.js
 
 
 
 [MITM]
-hostname = %APPEND% xunji.gxzckj.com
+hostname = %APPEND% api.xunjiapp.cn
