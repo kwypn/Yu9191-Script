@@ -1,6 +1,6 @@
 /*
-项目名称：训记6.12.14
-下载地址：商店
+项目名称：训记6.13.01 9.24更新
+下载地址：商店 
 脚本作者：@ios151
 使用说明：微信登录
 
@@ -8,7 +8,7 @@
 
 
 [rewrite_local]
-^https:\/\/xunji\.gxzckj\.com\/whole_user_info_v4 url script-request-header https://raw.githubusercontent.com/Yu9191/Script/main/xunji61109.js
+^https:\/\/api\.xunjiapp\.cn\/whole_user_info_v4 url script-request-header https://raw.githubusercontent.com/Yu9191/Script/main/xunji61109.js
 
 
 [mitm]
