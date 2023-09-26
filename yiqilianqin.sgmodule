@@ -1,0 +1,9 @@
+#!name = Scanner Pro
+#!author = ios151
+#!homepage = https://github.com/Yu9191/Script
+#!url= https://raw.githubusercontent.com/Yu9191/Script/main/yiqilianqin.sgmodule
+
+[Script]
+lianqin  = type=http-response,pattern=https?:\/\/api\..*lianqin.*\.(com|cn)\/client\/v\d\/(user_vip|my_info),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Yu9191/Script/main/yiqilianqin.js
+
+hostname = %APPEND% api.*lianqin*.*
