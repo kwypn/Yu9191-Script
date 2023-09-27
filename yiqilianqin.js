@@ -8,7 +8,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/api\..*\.(com|cn)\/client\/v\d\/(user_vip|my_info) url script-response-body https://raw.githubusercontent.com/Yu9191/Script/main/yiqilianqin.js
+https?:\/\/api\.(.*lianqin.*|mangofuture)\.(com|cn)\/client\/v\d\/(user_vip|my_info) url script-response-body https://raw.githubusercontent.com/Yu9191/Script/main/yiqilianqin.js
 
 [mitm]
 hostname = api.17lianqin.cn, api.lianqinba.com, api.mangofuture.cn
