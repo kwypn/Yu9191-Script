@@ -3,16 +3,15 @@
 项目名称：一起练琴
 下载地址：https://t.cn/A6OT6Ald
 脚本作者：chxm1023
-电报频道：https://t.me/chxm1023
 使用声明：⚠️仅供参考，🈲转载与售卖！
 
 **************************************
 
 [rewrite_local]
-https?:\/\/api\..*lianqin.*\.(com|cn)\/client\/v\d\/(user_vip|my_info) url script-response-body https://raw.githubusercontent.com/Yu9191/Script/main/yiqilianqin.js
+^https?:\/\/api\..*\.(com|cn)\/client\/v\d\/(user_vip|my_info) url script-response-body https://raw.githubusercontent.com/Yu9191/Script/main/yiqilianqin.js
 
 [mitm]
-hostname = api.*lianqin*.*
+hostname = api.17lianqin.cn, api.lianqinba.com, api.mangofuture.cn
 
 *************************************/
 
@@ -22,6 +21,9 @@ function replaceInBody(regex, replacement) {
   body = body.replace(regex, replacement);
 }
 
+replaceInBody(/\"last_day":".*?"/g, '"last_day":"2099-09-09"');
+replaceInBody(/\"vip_last_day":".*?"/g, '"vip_last_day":"2099-09-09"');
+replaceInBody(/\"last_day":null/g, '"last_day":"2099-09-09"');
 replaceInBody(/\"vip_last_day":null/g, '"vip_last_day":"2099-09-09"');
 replaceInBody(/\"is_vip_valid":\w+/g, '"is_vip_valid":true');
 replaceInBody(/\"purchased":\w+/g, '"purchased":true');
