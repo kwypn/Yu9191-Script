@@ -29,7 +29,3 @@ headers['DXY-AUTH-TOKEN'] = 'TGT-19038-EIV0xzdoCmcRBfKTZx7nxl3IJ3pKVWKgsD6-50';
 $done({
     headers: headers
 });
-
-$done({
-    headers: headers
-});
