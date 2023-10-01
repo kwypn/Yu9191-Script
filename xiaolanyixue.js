@@ -9,6 +9,8 @@
 [rewrite_local]
 ^https:\/\/(edu.lezaitizhong.com|(tk|course|im).lanjiyin.com.cn)\/(vod|tiku|course)\/(get_collection_list|class_list|getclassifychapter|sheet_detail|home_list|get_cate_vod_list)\? url script-response-body https://raw.githubusercontent.com/Yu9191/Script/main/xiaolanyixue.js
 
+#人机
+https://edu.lezaitizhong.com/tiku/machine/sheet_machine_muster? url script-response-body https://raw.githubusercontent.com/Yu9191/Script/main/xiaolanyixue.js
 [mitm]
 hostname = edu.lezaitizhong.com, *.lanjiyin.com.cn
 ====================================
