@@ -1,6 +1,6 @@
 /*
 
-名称：Xmind-思维导图 解锁VIP5201
+名称：Xmind-思维导图 解锁VIP2024
 地址：https://t.cn/AipCL5zE
 作者：ios151
 说明：先登录Xmind账号在恢复购买
